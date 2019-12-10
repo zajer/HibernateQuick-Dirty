@@ -5,7 +5,10 @@
     <non-jta-data-source>java:app/HBT</non-jta-data-source>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/JEEL3HBT"/>
+      <property name="javax.persistence.jdbc.user" value="pc"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="pc"/>
     </properties>
   </persistence-unit>
 </persistence>
